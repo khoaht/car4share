@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oas.Car4Share", "Oas.Car4Share\Oas.Car4Share.csproj", "{DECD4EE5-11DE-46E4-B1DC-6F336D11DC83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oas.Car4Share.Tests", "Oas.Car4Share.Tests\Oas.Car4Share.Tests.csproj", "{B5A6E6DA-9050-43EA-9F19-3FBC93E08152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{17C68014-6B94-4DE7-AE39-A6FE37212AA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5DCB6A86-F220-408F-8A03-71131A8A6C80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{035ECB60-569B-4EE6-815D-79D4B8ADFD0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DECD4EE5-11DE-46E4-B1DC-6F336D11DC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECD4EE5-11DE-46E4-B1DC-6F336D11DC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECD4EE5-11DE-46E4-B1DC-6F336D11DC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECD4EE5-11DE-46E4-B1DC-6F336D11DC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DECD4EE5-11DE-46E4-B1DC-6F336D11DC83} = {5DCB6A86-F220-408F-8A03-71131A8A6C80}
+		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152} = {035ECB60-569B-4EE6-815D-79D4B8ADFD0A}
+	EndGlobalSection
+EndGlobal
