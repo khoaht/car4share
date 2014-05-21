@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5DCB6A86-F22
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{035ECB60-569B-4EE6-815D-79D4B8ADFD0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oas.Infrastructure", "Modules\Oas.Infrastructure\Oas.Infrastructure.csproj", "{2AEDDE8C-CA12-49A3-96F1-60762EA0C759}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +29,16 @@ Global
 		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEDDE8C-CA12-49A3-96F1-60762EA0C759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEDDE8C-CA12-49A3-96F1-60762EA0C759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEDDE8C-CA12-49A3-96F1-60762EA0C759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEDDE8C-CA12-49A3-96F1-60762EA0C759}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{2AEDDE8C-CA12-49A3-96F1-60762EA0C759} = {17C68014-6B94-4DE7-AE39-A6FE37212AA2}
 		{DECD4EE5-11DE-46E4-B1DC-6F336D11DC83} = {5DCB6A86-F220-408F-8A03-71131A8A6C80}
 		{B5A6E6DA-9050-43EA-9F19-3FBC93E08152} = {035ECB60-569B-4EE6-815D-79D4B8ADFD0A}
 	EndGlobalSection
